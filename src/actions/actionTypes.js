@@ -1,3 +1,8 @@
-/* eslint no-multiple-empty-lines: [2, {max: 1}] */
-export const INCREMENT = 'INCREMENT';
-export const DECREMENT = 'DECREMENT';
+export const LOGINSUCESS = 'LOGINSUCESS'
+export const LOGINFAILED = 'LOGINFAILED';
+export const REGISTRATION_SUCCESS = 'REGISTRATION_SUCCESS';
+export const REGISTRATION_FAILED = 'REGISTRATION_FAILED';
+export const SET_SCREEN_WIDTH = 'SET_SCREEN_WIDTH';
+export const SHOW_PROFILE_UPDATE_PAGE = 'SHOW_PROFILE_UPDATE_PAGE';
+export const GET_USER_PROFILE = 'GET_USER_PROFILE';
+export const UPDATE_USER_PROFILE = 'UPDATE_USER_PROFILE';

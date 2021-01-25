@@ -1,8 +1,12 @@
 import { combineReducers } from 'redux';
-import counterReducer from './counter';
+import auth from './auth';
+import config from './config';
+import userProfile from './userProfile';
 
 const combinedReducers = combineReducers({
-  counter: counterReducer,
+  auth,
+  config,
+  userProfile,
 });
 
 export default combinedReducers;
