@@ -1,4 +1,4 @@
-import { SET_SCREEN_WIDTH, SHOW_PROFILE_UPDATE_PAGE,UPDATE_USER_PROFILE } from '../actions/actionTypes';
+import { SET_SCREEN_WIDTH, SHOW_PROFILE_UPDATE_PAGE, UPDATE_USER_PROFILE } from '../actions/actionTypes';
 
 const initialState = {
   width: 0,
@@ -12,12 +12,12 @@ const config = (state = initialState, action) => {
         ...state,
         width: action.payload,
       };
-      case SHOW_PROFILE_UPDATE_PAGE || UPDATE_USER_PROFILE:
+    case SHOW_PROFILE_UPDATE_PAGE || UPDATE_USER_PROFILE:
       return state = {
         ...state,
         showProfile: !state.showProfile,
       };
-      case UPDATE_USER_PROFILE:
+    case UPDATE_USER_PROFILE:
       return state = {
         ...state,
         showProfile: true

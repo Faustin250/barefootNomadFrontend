@@ -21,6 +21,7 @@ export class signup extends Component {
 }
 
 const mapStateToProps = (state) => ({ showProfile: state.config.showProfile });
+
 const mapDispatchToProps = (dispatch) => ({
   dispatch,
 });
